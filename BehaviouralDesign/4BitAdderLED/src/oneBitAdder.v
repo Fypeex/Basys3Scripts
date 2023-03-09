@@ -32,7 +32,7 @@ module oneBitAdder(
     wire n3;
     /*
         Y = 1 <=> A = 1 xor B = 1 xor C = 1
-        C = 1 <=> A = 1 and B = 1 xor A = 1 and C = 1 xor B = 1 and C = 1
+        C = 1 <=> A = 1 and B = 1 xor A = 1 and B = 1 xor B = 1 and C = 1
     */
     xor(Y,A,B,Cin);
     and(n1, A, B);

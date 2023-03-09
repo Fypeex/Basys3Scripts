@@ -4,47 +4,45 @@
 // Engineer: Felix Jungbluth
 //
 // Create Date: 03/09/2023 05:24:49 PM
-// Design Name: Eight Bit Adder
-// Module Name: eightBitAdder
+// Design Name: Four Bit Adder
+// Module Name: fourBitAdder
 // Project Name:
 // Target Devices:
 // Tool Versions:
 // Description:
-// This module adds two eight bit numbers and returns the result.
+// This module adds two four bit numbers together and outputs the result.
 
 // Dependencies:
-// fourBitAdder.v
+// twoBitAdder.v
 
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
 //
-// This module is based on the fourBitAdder module.
-// It is a eight bit full adder.
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module eightBitAdder(
-    input [7:0] A,  //Four bit input A
-    input [7:0] B,  //Four bit input B
+module fourBitAdder(
+    input [3:0] A,  //Four bit input A
+    input [3:0] B,  //Four bit input B
     input Cin,      //One bit carry in
-    output [7:0] Y, //Four bit output Y
+    output [3:0] Y, //Four bit output Y
     output C        //One bit carry out
 );
     wire n1;
-    fourBitAdder fba1 (
-        .A(A[3:0]),
-        .B(B[3:0]),
+    twoBitAdder tba1 (
+        .A(A[1:0]),
+        .B(B[1:0]),
         .Cin(Cin),
-        .Y(Y[3:0]),
+        .Y(Y[1:0]),
         .C(n1)
     );
 
-    fourBitAdder tba2 (
-        .A(A[7:4]),
-        .B(B[7:4]),
+    twoBitAdder tba2 (
+        .A(A[3:2]),
+        .B(B[3:2]),
         .Cin(n1),
-        .Y(Y[7:4]),
+        .Y(Y[3:2]),
         .C(C)
     );
 endmodule
