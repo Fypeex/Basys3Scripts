@@ -112,7 +112,7 @@ module inputEncoder(
                         seg = getSegments(digit1);
                     end
                 default: begin
-                    an = 4'b1000;
+                    an = 4'b1111;
                     seg = 7'b0111111;
                 end
             endcase
