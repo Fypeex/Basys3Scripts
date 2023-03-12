@@ -17,6 +17,13 @@
 // Revision 0.01 - File Created
 // Additional Comments:
 //
+// Input:
+//   A: 1 bit input
+//   B: 1 bit input
+//   Cin: 1 bit carry in
+// Output:
+//   Y: 1 bit output
+//   C: 1 bit carry out
 //////////////////////////////////////////////////////////////////////////////////
 
 

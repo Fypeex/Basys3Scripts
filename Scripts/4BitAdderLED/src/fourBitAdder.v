@@ -19,6 +19,14 @@
 // Revision 0.01 - File Created
 // Additional Comments:
 //
+// Input:
+// A - 4 bit Input
+// B - 4 bit Input
+// Cin - 1 bit Carry in
+//
+// Output:
+// Y - 4 bit Output
+// C - 1 bit Carry out
 //////////////////////////////////////////////////////////////////////////////////
 
 
