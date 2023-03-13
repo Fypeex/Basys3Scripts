@@ -31,21 +31,10 @@ module mux(
     output Y
 );
 
-    wire n0;
-    wire n1;
+    wire [1:0] n0;
 
-    wire n2;
-    wire n3;
+    twoOneMux m1 (.A(A[3:2]), .S(S[0]), .Y(n0[1]));
+    twoOneMux m2 (.A(A[1:0]), .S(S[0]), .Y(n0[0]));
+    twoOneMux m3 (.A(n0), .S(S[1]), .Y(Y));
 
-    wire n4;
-    not(n4, S[1]);
-
-    twoOneMux m1 (.A(A[1:0]), .S(S[0]), .Y(n0));
-    twoOneMux m2 (.A(A[3:2]), .S(S[0]), .Y(n1));
-
-
-    and(n2, n0, n4);
-    and(n3, n1, S[1]);
-
-    or(Y, n2, n3);
 endmodule
