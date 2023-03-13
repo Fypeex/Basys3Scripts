@@ -1,5 +1,28 @@
 # Basys3Scripts
 
+### Disclaimer
+> This repository contains scripts for the Basys3 board. <br>
+> The provided bitstream files may be outdated in terms of gate count and performance. <br>
+> However, the scripts should work as intended. <br>
+> If you want to use the latest version of the bitfiles you need to create them yourself. <br>
+> More info on how to do that can be found in the [Setup](#setup) section.
+
+# Table of Contents
+* [Requirements](#requirements)
+* [Scripts](#scripts)
+    * [Gate Designs](#gate-designs)
+        * [Adders](#adders)
+        * [Equality Checkers](#equality-checkers)
+        * [Multiplexers](#multiplexers)
+    * [Other Scripts](#other-scripts)
+       * [Four Bit Adder with LED Indicators](#four-bit-adder-with-led-indicators)
+       * [13 Bit Binary to Decimal Converter with 7 Segment Display](#13-bit-binary-to-decimal-converter-with-7-segment-display)
+       * [Four Bit Adder with Seven Segment Display](#four-bit-adder-with-seven-segment-display)
+* [Setup](#setup)
+    * [Quick start](#quick-start)
+    * [Detailed setup](#detailed-setup)
+* [Usage](#usage)
+* [License](#license)
 
 # Requirements
 * [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado.html) 2019.2 or later
