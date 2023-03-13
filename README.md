@@ -45,10 +45,10 @@ git clone https://github.com/Fypeex/Basys3Scripts.git
 ```
 
 ### Create a new Vivado project
- `Create Project` 🡢 Input the project name 🡢 `Next` 🡢 `RTL Project` 🡢 
- `Next` 🡢 `Add Files` 🡢 Add the Verilog (.v) files of the desired script 🡢 
- `Next` 🡢 `Add Files` 🡢 Add the constraint file (.xdc) of the desired script 🡢
- `Next` 🡢 Select the Basys3 board: <br>
+ `Create Project` → Input the project name → `Next` → `RTL Project` → 
+ `Next` → `Add Files` → Add the Verilog (.v) files of the desired script → 
+ `Next` → `Add Files` → Add the constraint file (.xdc) of the desired script →
+ `Next` → Select the Basys3 board: <br>
  
  * Family: `Artix-7`
  * Package: `cpg236`
@@ -57,7 +57,7 @@ git clone https://github.com/Fypeex/Basys3Scripts.git
  
  Alternatively you can directly search for `xc7a35tcpg236-1`
  
- 🡢 `Finish`
+ → `Finish`
 
 
 ### Run the synthesis
@@ -73,8 +73,8 @@ If you cannot fix the errors, please open an issue.
 # Usage
 
  Connect the Basys3 board to your computer via USB and power it on. <br>
- Open`Hardware Manager`in the Flow Navigator 🡢
- `Open Target` 🡢 `Auto Connect` <br>
+ Open`Hardware Manager`in the Flow Navigator →
+ `Open Target` → `Auto Connect` <br>
  
  If the board is connected correctly, the `Program Device` button should be enabled. <br>
  Click on `Program Device` and select the bitstream file (.bit) of the desired script. <br>
