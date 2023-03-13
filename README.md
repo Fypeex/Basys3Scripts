@@ -30,26 +30,31 @@
 
 # Scripts
 ### Gate Designs:
-> ### Adders:
-> * [One Bit Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/oneBitAdder.v)
-> * [Two Bit Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/twoBitAdder.v)
-> * [Four Bit Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/fourBitAdder.v)
-> * [N Bit Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/nBitAdder.v)
+> ### Adder:
+> * [1 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/oneBitAdder.v)
+> * [2 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/twoBitAdder.v)
+> * [4 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/fourBitAdder.v)
+> * [N Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/nBitAdder.v)
 > 
 > _Make sure to check the dependencies in the module description_
 
-> ### Equality Checkers:
-> * [One Bit Equality Checker](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/oneBitEquality.v)
-> * [Two Bit Equality Checker](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/twoBitEquality.v)
-> * [Four Bit Equality Checker](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/fourBitEquality.v)
-> * [N Bit Equality Checker](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/nBitEquality.v)
+> ### Equality Checker:
+> * [1 Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/oneBitEquality.v)
+> * [2 Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/twoBitEquality.v)
+> * [4 Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/fourBitEquality.v)
+> * [N Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/nBitEquality.v)
 >
 > _Make sure to check the dependencies in the module description_
 
-> ### Multiplexers:
+> ### Multiplexer:
 > * [2:1 MUX](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/MUX/twoOneMUX.v)
 > * [4:1 MUX](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/MUX/fourOneMUX.v)
-> 
+>
+> _Make sure to check the dependencies in the module description_
+
+> ### Decoder:
+> * [2:4 Decoder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Decoders/twoFourDecoder.v)
+>
 > _Make sure to check the dependencies in the module description_
 
 ### Other Scripts:
