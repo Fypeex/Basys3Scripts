@@ -34,17 +34,17 @@ module oneBitAdder(
     output Y,   //One bit output Y
     output C    //One bit carry out
 );
+    wire n0;
     wire n1;
     wire n2;
-    wire n3;
     /*
         Y = 1 <=> A = 1 xor B = 1 xor C = 1
         C = 1 <=> A = 1 and B = 1 xor A = 1 and C = 1 xor B = 1 and C = 1
     */
-    xor(Y,A,B,Cin);
-    and(n1, A, B);
-    and(n2, A, Cin);
-    and(n3, B, Cin);
-    xor(C, n1, n2, n3);
+    xor(n0, A , B)
+    xor (Y, n0, Cin)
+    and (n2, n0, Cin)
+    and (n3, A, B)
+    or (C, n2, n3);
 
 endmodule
