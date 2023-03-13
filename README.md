@@ -23,6 +23,12 @@
 >
 > _Make sure to check the dependencies in the module description_
 
+> ### Multiplexers:
+> * [2:1 MUX](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/MUX/twoOneMUX.v)
+> * [4:1 MUX](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/MUX/fourOneMUX.v)
+> 
+> _Make sure to check the dependencies in the module description_
+
 ### Other Scripts:
 > * [Four Bit Adder with LED Indicators](https://github.com/Fypeex/Basys3Scripts/tree/main/BehaviouralDesign/4BitAdderLED)
 > * [13 Bit Binary to Decimal Converter with 7 Segment Display](https://github.com/Fypeex/Basys3Scripts/tree/main/BehaviouralDesign/BinaryToDecimalConverter)
