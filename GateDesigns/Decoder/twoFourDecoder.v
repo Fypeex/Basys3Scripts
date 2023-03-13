@@ -43,8 +43,8 @@ module twoFourDecoder (
  not(n0, A);
  not(n1, B);
 
- nand(Y[0], n0, n1);
- nand(Y[1], n0, B);
- nand(Y[2], A, n1);
- nand(Y[3], A, B);
+ and(Y[0], n0, n1);
+ and(Y[1], n0, B);
+ and(Y[2], A, n1);
+ and(Y[3], A, B);
 endmodule

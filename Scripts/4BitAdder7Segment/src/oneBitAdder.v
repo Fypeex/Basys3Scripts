@@ -43,8 +43,8 @@ module oneBitAdder(
     */
     xor(n0, A , B)
     xor (Y, n0, Cin)
-    and (n2, n0, Cin)
-    and (n3, A, B)
-    or (C, n2, n3);
+    and (n1, n0, Cin)
+    and (n2, A, B)
+    or (C, n1, n2);
 
 endmodule
