@@ -26,7 +26,8 @@
 ### Other Scripts:
 > * [Four Bit Adder with LED Indicators](https://github.com/Fypeex/Basys3Scripts/tree/main/BehaviouralDesign/4BitAdderLED)
 > * [13 Bit Binary to Decimal Converter with 7 Segment Display](https://github.com/Fypeex/Basys3Scripts/tree/main/BehaviouralDesign/BinaryToDecimalConverter)
-> 
+> * [Four Bit Adder with Seven Segment Display](https://github.com/Fypeex/Basys3Scripts/tree/main/Scripts/4BitAdder7Segment)
+>
 > _Make sure to use the correct constraint file for the desired script_
 # Setup
 ## Quick start: 
