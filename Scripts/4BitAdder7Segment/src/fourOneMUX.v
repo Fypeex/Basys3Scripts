@@ -1,21 +1,22 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+// Company:
+// Engineer:
+//
 // Create Date: 03/11/2023 03:42:01 PM
-// Design Name: 
+// Design Name:
 // Module Name: mux
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
+// Project Name:
+// Target Devices:
+// Tool Versions:
+// Description:
+//
+// Dependencies:
+// twoOneMUX.v
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
+//
 // Input:
 //    A - 4 bit input
 //    S - 2 bit input
@@ -29,25 +30,22 @@ module mux(
     input [1:0] S, //Current digit
     output Y
 );
-    
-//Wires for NOT Signals from S0/S1
-wire n0;
-wire n1;
 
-//Wires for output of ands
-wire n2;
-wire n3;
-wire n4;
-wire n5;
+    wire n0;
+    wire n1;
 
-not(n1, S[1]);
-not(n0, S[0]);
+    wire n2;
+    wire n3;
 
-and(n2, S[1], S[0], A[3]);
-and(n3, S[1], n0, A[2]);
-and(n4, n1, S[0], A[1]);
-and(n5, n1, n0, A[0]);
+    wire n4;
+    not(n4, S[1]);
 
-or(Y, n2,n3,n4,n5);
+    twoOneMux m1 (.A(A[1:0]), .S(S[0]), .Y(n0));
+    twoOneMux m2 (.A(A[3:2]), .S(S[0]), .Y(n1));
 
+
+    and(n2, n0, n4);
+    and(n3, n1, S[1]);
+
+    or(Y, n2, n3);
 endmodule
