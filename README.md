@@ -26,7 +26,7 @@
 
 # Requirements
 * [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado.html) 2019.2 or later
-* [Digilent Basys3 board](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start) (or any other board with a Xilinx Artix-7 FPGA)
+* [Digilent Basys3 board](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start)
 
 # Scripts
 ### Gate Designs:
