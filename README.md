@@ -31,18 +31,18 @@
 # Scripts
 ### Gate Designs:
 > ### Adder:
-> * [1 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adder/oneBitAdder.v)
-> * [2 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adder/twoBitAdder.v)
-> * [4 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adder/fourBitAdder.v)
-> * [N Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adder/nBitAdder.v)
+> * [1 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Adder/oneBitAdder.v)
+> * [2 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Adder/twoBitAdder.v)
+> * [4 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Adder/fourBitAdder.v)
+> * [N Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Adder/nBitAdder.v)
 > 
 > _Make sure to check the dependencies in the module description_
 
 > ### Equality Checker:
-> * [1 Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/oneBitEquality.v)
-> * [2 Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/twoBitEquality.v)
-> * [4 Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/fourBitEquality.v)
-> * [N Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Equality/nBitEquality.v)
+> * [1 Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Equality/oneBitEquality.v)
+> * [2 Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Equality/twoBitEquality.v)
+> * [4 Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Equality/fourBitEquality.v)
+> * [N Bit Equality](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Equality/nBitEquality.v)
 >
 > _Make sure to check the dependencies in the module description_
 
@@ -58,8 +58,8 @@
 > _Make sure to check the dependencies in the module description_
 
 ### Other Scripts:
-> * [Four Bit Adder with LED Indicators](https://github.com/Fypeex/Basys3Scripts/tree/main/BehaviouralDesign/4BitAdderLED)
-> * [13 Bit Binary to Decimal Converter with 7 Segment Display](https://github.com/Fypeex/Basys3Scripts/tree/main/BehaviouralDesign/BinaryToDecimalConverter)
+> * [Four Bit Adder with LED Indicators](https://github.com/Fypeex/Basys3Scripts/tree/main/Scripts/4BitAdderLED)
+> * [13 Bit Binary to Decimal Converter with 7 Segment Display](https://github.com/Fypeex/Basys3Scripts/tree/main/Scripts/BinaryToDecimalConverter)
 > * [Four Bit Adder with Seven Segment Display](https://github.com/Fypeex/Basys3Scripts/tree/main/Scripts/4BitAdder7Segment)
 >
 > _Make sure to use the correct constraint file for the desired script_
