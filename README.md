@@ -11,7 +11,7 @@
 * [Requirements](#requirements)
 * [Scripts](#scripts)
     * [Gate Designs](#gate-designs)
-        * [Adders](#adders)
+        * [Adder](#Adder)
         * [Equality Checkers](#equality-checkers)
         * [Multiplexers](#multiplexers)
     * [Other Scripts](#other-scripts)
@@ -31,10 +31,10 @@
 # Scripts
 ### Gate Designs:
 > ### Adder:
-> * [1 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/oneBitAdder.v)
-> * [2 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/twoBitAdder.v)
-> * [4 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/fourBitAdder.v)
-> * [N Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adders/nBitAdder.v)
+> * [1 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adder/oneBitAdder.v)
+> * [2 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adder/twoBitAdder.v)
+> * [4 Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adder/fourBitAdder.v)
+> * [N Bit Full Adder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesign/Adder/nBitAdder.v)
 > 
 > _Make sure to check the dependencies in the module description_
 
@@ -53,7 +53,7 @@
 > _Make sure to check the dependencies in the module description_
 
 > ### Decoder:
-> * [2:4 Decoder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Decoders/twoFourDecoder.v)
+> * [2:4 Decoder](https://github.com/Fypeex/Basys3Scripts/blob/main/GateDesigns/Decoder/twoFourDecoder.v)
 >
 > _Make sure to check the dependencies in the module description_
 
