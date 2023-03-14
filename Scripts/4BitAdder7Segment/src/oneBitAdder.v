@@ -41,10 +41,10 @@ module oneBitAdder(
         Y = 1 <=> A = 1 xor B = 1 xor C = 1
         C = 1 <=> A = 1 and B = 1 xor A = 1 and C = 1 xor B = 1 and C = 1
     */
-    xor(n0, A , B)
-    xor (Y, n0, Cin)
-    and (n1, n0, Cin)
-    and (n2, A, B)
+    xor(n0, A , B);
+    xor (Y, n0, Cin);
+    and (n1, n0, Cin);
+    and (n2, A, B);
     or (C, n1, n2);
 
 endmodule
